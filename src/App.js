@@ -14,7 +14,7 @@ function App() {
         <CountriesList />
 
         <Routes>
-          <Route path="/countries/:alpha3Code" element={<CountryDetails />} />
+          <Route path="/:alpha3Code" element={<CountryDetails />} />
         </Routes>
       </div>
     </div>

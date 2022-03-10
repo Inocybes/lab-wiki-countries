@@ -39,7 +39,7 @@ function CountryDetails() {
       
         return (
           <ul key={index + eachCountry}>
-            <Link to={countryDetails.name.common ? eachCountry : ''}>{eachCountry} </Link>
+            <Link to={`/${eachCountry}`}>{eachCountry} </Link>
           </ul>
         );
       })}

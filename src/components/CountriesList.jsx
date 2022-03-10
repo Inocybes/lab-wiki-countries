@@ -30,7 +30,7 @@ function CountriesList() {
       {listOfCountries.map((eachCountry, index) => {
         return (
           <div key={index + eachCountry.alpha3Code}>
-            <Link to={`countries/${eachCountry.alpha3Code}`}>
+            <Link to={`/${eachCountry.alpha3Code}`}>
               {eachCountry.name.common}
             </Link>
           </div>
